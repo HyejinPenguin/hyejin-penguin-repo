@@ -275,6 +275,58 @@
   }
 }
 
+/* Footer 전체 영역 */
+.footer {
+  background-color: #1e1e1e; /* 어두운 배경 */
+  color: #ffffff; /* 글자 색 흰색 */
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Footer 내부 컨테이너 */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 로고 스타일 */
+.footer-logo h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ffd700; /* 금색 포인트 */
+}
+
+/* 네비게이션 메뉴 */
+.footer-navigation {
+  margin-bottom: 20px;
+}
+
+.footer-nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-nav-link:hover {
+  color: #ffd700;
+}
+
+/* Footer 정보 영역 */
+.footer-info p {
+  font-size: 0.9rem;
+  color: #cccccc;
+}
+
 /* Header 컴포넌트 - 모던 디자인 */
 .header {
   position: fixed;
