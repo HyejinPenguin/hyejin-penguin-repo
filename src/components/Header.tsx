@@ -3,7 +3,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>Hyejin Penguin</h1>
+          <h1>Hyejin Penguin!</h1>
         </div>
         <nav className="navigation">
           <ul className="nav-list">
